@@ -15,3 +15,4 @@
 /home/murilo/www/SolidityRDP/obj/Debug/net9.0/SolidityRDP.pdb
 /home/murilo/www/SolidityRDP/obj/Debug/net9.0/SolidityRDP.genruntimeconfig.cache
 /home/murilo/www/SolidityRDP/obj/Debug/net9.0/ref/SolidityRDP.dll
+/home/murilo/www/SolidityRDP/obj/Debug/net9.0/SolidityRDP.sourcelink.json

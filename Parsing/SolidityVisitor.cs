@@ -23,6 +23,7 @@ namespace SolidityRDP.Parsing
             return base.VisitContractDefinition(context);
         }
 
+        // Irá visitar a declaração de variáveis, não conta variáveis declaradas dentro de funções
         public override object VisitStateVariableDeclaration(SolidityParser.StateVariableDeclarationContext context)
         {
             string visibility = "internal";
@@ -58,6 +59,8 @@ namespace SolidityRDP.Parsing
             return null;
         }
 
+        // Irá visitar a definição de função, com modifiers para servir de guard das transções depois7
+        // pega lista de parâmetros e seus tupos também
         public override object VisitFunctionDefinition(SolidityParser.FunctionDefinitionContext context)
         {
             string visibility = "internal";
@@ -119,6 +122,7 @@ namespace SolidityRDP.Parsing
             return null;
         }
 
+        // visita as expressões, como a = b, a *= b
         public override object VisitExpressionStatement(SolidityParser.ExpressionStatementContext context)
         {
             if (_currentFunction == null) return null;
@@ -152,7 +156,6 @@ namespace SolidityRDP.Parsing
                     var funcCall = new FunctionCallStatement
                     {
                         FunctionName = fnName,
-                        // ✅ CORREÇÃO APLICADA AQUI
                         Arguments = expression.functionCallArguments().expressionList()?.expression().Select(e => e.GetText()).ToList() ?? new List<string>(),
                         LineNumber = context.Start.Line
                     };

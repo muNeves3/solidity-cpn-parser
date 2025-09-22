@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PnmlDocument>
+  <net id="net1" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <page id="page1">
+      <place id="id0">
+        <name>
+          <text>buyer</text>
+        </name>
+      </place>
+      <place id="id1">
+        <name>
+          <text>seller</text>
+        </name>
+      </place>
+      <place id="id2">
+        <name>
+          <text>bank</text>
+        </name>
+      </place>
+      <place id="id3">
+        <name>
+          <text>carrier</text>
+        </name>
+      </place>
+      <place id="id4">
+        <name>
+          <text>paymentAmount</text>
+        </name>
+      </place>
+      <place id="id5">
+        <name>
+          <text>shippingCosts</text>
+        </name>
+      </place>
+      <place id="id6">
+        <name>
+          <text>_isSent</text>
+        </name>
+      </place>
+      <place id="id7">
+        <name>
+          <text>_isShippingCostsPaid</text>
+        </name>
+      </place>
+      <place id="id8">
+        <name>
+          <text>_isProductRecieptNotified</text>
+        </name>
+      </place>
+      <place id="id9">
+        <name>
+          <text>_isProductDeliveryNotified</text>
+        </name>
+      </place>
+      <place id="id10">
+        <name>
+          <text>state</text>
+        </name>
+      </place>
+      <place id="id11">
+        <name>
+          <text>constructor_entry</text>
+        </name>
+        <initialMarking>
+          <text>1`()</text>
+        </initialMarking>
+      </place>
+      <place id="id16">
+        <name>
+          <text>ctrl</text>
+        </name>
+      </place>
+      <place id="id22">
+        <name>
+          <text>ctrl</text>
+        </name>
+      </place>
+      <place id="id28">
+        <name>
+          <text>ctrl</text>
+        </name>
+      </place>
+      <place id="id34">
+        <name>
+          <text>ctrl</text>
+        </name>
+      </place>
+      <place id="id40">
+        <name>
+          <text>ctrl</text>
+        </name>
+      </place>
+      <place id="id46">
+        <name>
+          <text>ctrl</text>
+        </name>
+      </place>
+      <place id="id52">
+        <name>
+          <text>ctrl</text>
+        </name>
+      </place>
+      <place id="id54">
+        <name>
+          <text>buyProduct_entry</text>
+        </name>
+      </place>
+      <place id="id59">
+        <name>
+          <text>ctrl</text>
+        </name>
+      </place>
+      <place id="id61">
+        <name>
+          <text>payProduct_entry</text>
+        </name>
+      </place>
+      <place id="id64">
+        <name>
+          <text>ctrl_after_{cond.Type}</text>
+        </name>
+      </place>
+      <place id="id70">
+        <name>
+          <text>ctrl</text>
+        </name>
+      </place>
+      <place id="id72">
+        <name>
+          <text>notifyProductPayment_entry</text>
+        </name>
+      </place>
+      <place id="id77">
+        <name>
+          <text>ctrl</text>
+        </name>
+      </place>
+      <place id="id79">
+        <name>
+          <text>sendProduct_entry</text>
+        </name>
+      </place>
+      <place id="id84">
+        <name>
+          <text>ctrl</text>
+        </name>
+      </place>
+      <place id="id90">
+        <name>
+          <text>ctrl</text>
+        </name>
+      </place>
+      <place id="id92">
+        <name>
+          <text>payShippingCosts_entry</text>
+        </name>
+      </place>
+      <place id="id95">
+        <name>
+          <text>ctrl_after_{cond.Type}</text>
+        </name>
+      </place>
+      <place id="id101">
+        <name>
+          <text>ctrl</text>
+        </name>
+      </place>
+      <place id="id103">
+        <name>
+          <text>deliverProduct_entry</text>
+        </name>
+      </place>
+      <place id="id108">
+        <name>
+          <text>ctrl</text>
+        </name>
+      </place>
+      <place id="id110">
+        <name>
+          <text>notifyProductReceipt_entry</text>
+        </name>
+      </place>
+      <place id="id115">
+        <name>
+          <text>ctrl</text>
+        </name>
+      </place>
+      <place id="id117">
+        <name>
+          <text>notifyProductDelivery_entry</text>
+        </name>
+      </place>
+      <place id="id122">
+        <name>
+          <text>ctrl</text>
+        </name>
+      </place>
+      <place id="id124">
+        <name>
+          <text>payProductSeller_entry</text>
+        </name>
+      </place>
+      <place id="id125">
+        <name>
+          <text>liberateShippingCosts_entry</text>
+        </name>
+      </place>
+      <place id="id130">
+        <name>
+          <text>ctrl</text>
+        </name>
+      </place>
+      <place id="id132">
+        <name>
+          <text>payShippingCosts_entry</text>
+        </name>
+      </place>
+      <place id="id137">
+        <name>
+          <text>ctrl</text>
+        </name>
+      </place>
+      <transition id="id12">
+        <name>
+          <text>constructor_op_buyer</text>
+        </name>
+      </transition>
+      <transition id="id18">
+        <name>
+          <text>constructor_op_seller</text>
+        </name>
+      </transition>
+      <transition id="id24">
+        <name>
+          <text>constructor_op_bank</text>
+        </name>
+      </transition>
+      <transition id="id30">
+        <name>
+          <text>constructor_op_carrier</text>
+        </name>
+      </transition>
+      <transition id="id36">
+        <name>
+          <text>constructor_op_paymentAmount</text>
+        </name>
+      </transition>
+      <transition id="id42">
+        <name>
+          <text>constructor_op_state</text>
+        </name>
+      </transition>
+      <transition id="id48">
+        <name>
+          <text>constructor_op_shippingCosts</text>
+        </name>
+      </transition>
+      <transition id="id55">
+        <name>
+          <text>buyProduct_op_state</text>
+        </name>
+      </transition>
+      <transition id="id62">
+        <name>
+          <text>require_111</text>
+        </name>
+        <guard>
+          <text>[_payment==paymentAmount,"Incorrect payment amount"]</text>
+        </guard>
+      </transition>
+      <transition id="id66">
+        <name>
+          <text>payProduct_op_state</text>
+        </name>
+      </transition>
+      <transition id="id73">
+        <name>
+          <text>notifyProductPayment_op_state</text>
+        </name>
+      </transition>
+      <transition id="id80">
+        <name>
+          <text>sendProduct_op_state</text>
+        </name>
+      </transition>
+      <transition id="id86">
+        <name>
+          <text>sendProduct_op_state</text>
+        </name>
+      </transition>
+      <transition id="id93">
+        <name>
+          <text>require_143</text>
+        </name>
+        <guard>
+          <text>[_shippingPayment==shippingCosts]</text>
+        </guard>
+      </transition>
+      <transition id="id97">
+        <name>
+          <text>payShippingCosts_op_state</text>
+        </name>
+      </transition>
+      <transition id="id104">
+        <name>
+          <text>deliverProduct_op_state</text>
+        </name>
+      </transition>
+      <transition id="id111">
+        <name>
+          <text>notifyProductReceipt_op_state</text>
+        </name>
+      </transition>
+      <transition id="id118">
+        <name>
+          <text>notifyProductDelivery_op_state</text>
+        </name>
+      </transition>
+      <transition id="id126">
+        <name>
+          <text>liberateShippingCosts_op_state</text>
+        </name>
+      </transition>
+      <transition id="id133">
+        <name>
+          <text>payShippingCosts_op_state</text>
+        </name>
+      </transition>
+      <arc id="id13" source="id11" target="id12">
+        <inscription>
+          <text>()</text>
+        </inscription>
+      </arc>
+      <arc id="id14" source="id0" target="id12">
+        <inscription>
+          <text>x</text>
+        </inscription>
+      </arc>
+      <arc id="id15" source="id12" target="id0">
+        <inscription>
+          <text>_x</text>
+        </inscription>
+      </arc>
+      <arc id="id17" source="id12" target="id16">
+        <inscription>
+          <text>()</text>
+        </inscription>
+      </arc>
+      <arc id="id19" source="id16" target="id18">
+        <inscription>
+          <text>()</text>
+        </inscription>
+      </arc>
+      <arc id="id20" source="id1" target="id18">
+        <inscription>
+          <text>x</text>
+        </inscription>
+      </arc>
+      <arc id="id21" source="id18" target="id1">
+        <inscription>
+          <text>_x</text>
+        </inscription>
+      </arc>
+      <arc id="id23" source="id18" target="id22">
+        <inscription>
+          <text>()</text>
+        </inscription>
+      </arc>
+      <arc id="id25" source="id22" target="id24">
+        <inscription>
+          <text>()</text>
+        </inscription>
+      </arc>
+      <arc id="id26" source="id2" target="id24">
+        <inscription>
+          <text>x</text>
+        </inscription>
+      </arc>
+      <arc id="id27" source="id24" target="id2">
+        <inscription>
+          <text>_x</text>
+        </inscription>
+      </arc>
+      <arc id="id29" source="id24" target="id28">
+        <inscription>
+          <text>()</text>
+        </inscription>
+      </arc>
+      <arc id="id31" source="id28" target="id30">
+        <inscription>
+          <text>()</text>
+        </inscription>
+      </arc>
+      <arc id="id32" source="id3" target="id30">
+        <inscription>
+          <text>x</text>
+        </inscription>
+      </arc>
+      <arc id="id33" source="id30" target="id3">
+        <inscription>
+          <text>_x</text>
+        </inscription>
+      </arc>
+      <arc id="id35" source="id30" target="id34">
+        <inscription>
+          <text>()</text>
+        </inscription>
+      </arc>
+      <arc id="id37" source="id34" target="id36">
+        <inscription>
+          <text>()</text>
+        </inscription>
+      </arc>
+      <arc id="id38" source="id4" target="id36">
+        <inscription>
+          <text>x</text>
+        </inscription>
+      </arc>
+      <arc id="id39" source="id36" target="id4">
+        <inscription>
+          <text>_x</text>
+        </inscription>
+      </arc>
+      <arc id="id41" source="id36" target="id40">
+        <inscription>
+          <text>()</text>
+        </inscription>
+      </arc>
+      <arc id="id43" source="id40" target="id42">
+        <inscription>
+          <text>()</text>
+        </inscription>
+      </arc>
+      <arc id="id44" source="id10" target="id42">
+        <inscription>
+          <text>x</text>
+        </inscription>
+      </arc>
+      <arc id="id45" source="id42" target="id10">
+        <inscription>
+          <text>ContractState.Created</text>
+        </inscription>
+      </arc>
+      <arc id="id47" source="id42" target="id46">
+        <inscription>
+          <text>()</text>
+        </inscription>
+      </arc>
+      <arc id="id49" source="id46" target="id48">
+        <inscription>
+          <text>()</text>
+        </inscription>
+      </arc>
+      <arc id="id50" source="id5" target="id48">
+        <inscription>
+          <text>x</text>
+        </inscription>
+      </arc>
+      <arc id="id51" source="id48" target="id5">
+        <inscription>
+          <text>_x</text>
+        </inscription>
+      </arc>
+      <arc id="id53" source="id48" target="id52">
+        <inscription>
+          <text>()</text>
+        </inscription>
+      </arc>
+      <arc id="id56" source="id54" target="id55">
+        <inscription>
+          <text>()</text>
+        </inscription>
+      </arc>
+      <arc id="id57" source="id10" target="id55">
+        <inscription>
+          <text>x</text>
+        </inscription>
+      </arc>
+      <arc id="id58" source="id55" target="id10">
+        <inscription>
+          <text>ContractState.ProductBought</text>
+        </inscription>
+      </arc>
+      <arc id="id60" source="id55" target="id59">
+        <inscription>
+          <text>()</text>
+        </inscription>
+      </arc>
+      <arc id="id63" source="id61" target="id62">
+        <inscription>
+          <text>()</text>
+        </inscription>
+      </arc>
+      <arc id="id65" source="id62" target="id64">
+        <inscription>
+          <text>()</text>
+        </inscription>
+      </arc>
+      <arc id="id67" source="id64" target="id66">
+        <inscription>
+          <text>()</text>
+        </inscription>
+      </arc>
+      <arc id="id68" source="id10" target="id66">
+        <inscription>
+          <text>x</text>
+        </inscription>
+      </arc>
+      <arc id="id69" source="id66" target="id10">
+        <inscription>
+          <text>ContractState.ProductPaid</text>
+        </inscription>
+      </arc>
+      <arc id="id71" source="id66" target="id70">
+        <inscription>
+          <text>()</text>
+        </inscription>
+      </arc>
+      <arc id="id74" source="id72" target="id73">
+        <inscription>
+          <text>()</text>
+        </inscription>
+      </arc>
+      <arc id="id75" source="id10" target="id73">
+        <inscription>
+          <text>x</text>
+        </inscription>
+      </arc>
+      <arc id="id76" source="id73" target="id10">
+        <inscription>
+          <text>ContractState.PaymentNotified</text>
+        </inscription>
+      </arc>
+      <arc id="id78" source="id73" target="id77">
+        <inscription>
+          <text>()</text>
+        </inscription>
+      </arc>
+      <arc id="id81" source="id79" target="id80">
+        <inscription>
+          <text>()</text>
+        </inscription>
+      </arc>
+      <arc id="id82" source="id10" target="id80">
+        <inscription>
+          <text>x</text>
+        </inscription>
+      </arc>
+      <arc id="id83" source="id80" target="id10">
+        <inscription>
+          <text>ContractState.ProductShipped</text>
+        </inscription>
+      </arc>
+      <arc id="id85" source="id80" target="id84">
+        <inscription>
+          <text>()</text>
+        </inscription>
+      </arc>
+      <arc id="id87" source="id84" target="id86">
+        <inscription>
+          <text>()</text>
+        </inscription>
+      </arc>
+      <arc id="id88" source="id10" target="id86">
+        <inscription>
+          <text>x</text>
+        </inscription>
+      </arc>
+      <arc id="id89" source="id86" target="id10">
+        <inscription>
+          <text>ContractState.ProductDelivered</text>
+        </inscription>
+      </arc>
+      <arc id="id91" source="id86" target="id90">
+        <inscription>
+          <text>()</text>
+        </inscription>
+      </arc>
+      <arc id="id94" source="id92" target="id93">
+        <inscription>
+          <text>()</text>
+        </inscription>
+      </arc>
+      <arc id="id96" source="id93" target="id95">
+        <inscription>
+          <text>()</text>
+        </inscription>
+      </arc>
+      <arc id="id98" source="id95" target="id97">
+        <inscription>
+          <text>()</text>
+        </inscription>
+      </arc>
+      <arc id="id99" source="id10" target="id97">
+        <inscription>
+          <text>x</text>
+        </inscription>
+      </arc>
+      <arc id="id100" source="id97" target="id10">
+        <inscription>
+          <text>ContractState.ShippingPaid</text>
+        </inscription>
+      </arc>
+      <arc id="id102" source="id97" target="id101">
+        <inscription>
+          <text>()</text>
+        </inscription>
+      </arc>
+      <arc id="id105" source="id103" target="id104">
+        <inscription>
+          <text>()</text>
+        </inscription>
+      </arc>
+      <arc id="id106" source="id10" target="id104">
+        <inscription>
+          <text>x</text>
+        </inscription>
+      </arc>
+      <arc id="id107" source="id104" target="id10">
+        <inscription>
+          <text>ContractState.ProductDelivered</text>
+        </inscription>
+      </arc>
+      <arc id="id109" source="id104" target="id108">
+        <inscription>
+          <text>()</text>
+        </inscription>
+      </arc>
+      <arc id="id112" source="id110" target="id111">
+        <inscription>
+          <text>()</text>
+        </inscription>
+      </arc>
+      <arc id="id113" source="id10" target="id111">
+        <inscription>
+          <text>x</text>
+        </inscription>
+      </arc>
+      <arc id="id114" source="id111" target="id10">
+        <inscription>
+          <text>ContractState.ReceiptConfirmed</text>
+        </inscription>
+      </arc>
+      <arc id="id116" source="id111" target="id115">
+        <inscription>
+          <text>()</text>
+        </inscription>
+      </arc>
+      <arc id="id119" source="id117" target="id118">
+        <inscription>
+          <text>()</text>
+        </inscription>
+      </arc>
+      <arc id="id120" source="id10" target="id118">
+        <inscription>
+          <text>x</text>
+        </inscription>
+      </arc>
+      <arc id="id121" source="id118" target="id10">
+        <inscription>
+          <text>ContractState.DeliveryConfirmed</text>
+        </inscription>
+      </arc>
+      <arc id="id123" source="id118" target="id122">
+        <inscription>
+          <text>()</text>
+        </inscription>
+      </arc>
+      <arc id="id127" source="id125" target="id126">
+        <inscription>
+          <text>()</text>
+        </inscription>
+      </arc>
+      <arc id="id128" source="id10" target="id126">
+        <inscription>
+          <text>x</text>
+        </inscription>
+      </arc>
+      <arc id="id129" source="id126" target="id10">
+        <inscription>
+          <text>ContractState.PaymentReleasedCarrier</text>
+        </inscription>
+      </arc>
+      <arc id="id131" source="id126" target="id130">
+        <inscription>
+          <text>()</text>
+        </inscription>
+      </arc>
+      <arc id="id134" source="id132" target="id133">
+        <inscription>
+          <text>()</text>
+        </inscription>
+      </arc>
+      <arc id="id135" source="id10" target="id133">
+        <inscription>
+          <text>x</text>
+        </inscription>
+      </arc>
+      <arc id="id136" source="id133" target="id10">
+        <inscription>
+          <text>ContractState.PaymentConfirmedCarrier</text>
+        </inscription>
+      </arc>
+      <arc id="id138" source="id133" target="id137">
+        <inscription>
+          <text>()</text>
+        </inscription>
+      </arc>
+    </page>
+  </net>
+</PnmlDocument>

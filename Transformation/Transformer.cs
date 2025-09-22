@@ -32,6 +32,7 @@ namespace SolidityRDP.Transformation
             return pnmlDocument;
         }
 
+        // places são gerados a patir de variáveis globais
         private void CreatePlacesFromState(SolidityContract contract, Page page)
         {
             foreach (var gv in contract.GlobalVariables)
@@ -53,6 +54,7 @@ namespace SolidityRDP.Transformation
             }
         }
 
+        //
         private void ProcessFunction(FunctionDefinition func, Page page, bool isConstructor = false)
         {
             // Lugar de entrada da função

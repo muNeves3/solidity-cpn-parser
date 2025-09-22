@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SolidityRDP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5be9100d4992338c398ef0aa37816b4b2748c4ea")]
 [assembly: System.Reflection.AssemblyProductAttribute("SolidityRDP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SolidityRDP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
