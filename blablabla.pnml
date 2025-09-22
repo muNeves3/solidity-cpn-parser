@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PnmlDocument>
+  <net id="net1" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <page id="page1">
+      <place id="id0">
+        <name>
+          <text>buyer</text>
+        </name>
+      </place>
+      <place id="id1">
+        <name>
+          <text>seller</text>
+        </name>
+      </place>
+      <place id="id2">
+        <name>
+          <text>bank</text>
+        </name>
+      </place>
+      <place id="id3">
+        <name>
+          <text>carrier</text>
+        </name>
+      </place>
+      <place id="id4">
+        <name>
+          <text>paymentAmount</text>
+        </name>
+      </place>
+      <place id="id5">
+        <name>
+          <text>shippingCosts</text>
+        </name>
+      </place>
+      <place id="id6">
+        <name>
+          <text>_isSent</text>
+        </name>
+      </place>
+      <place id="id7">
+        <name>
+          <text>_isShippingCostsPaid</text>
+        </name>
+      </place>
+      <place id="id8">
+        <name>
+          <text>_isProductRecieptNotified</text>
+        </name>
+      </place>
+      <place id="id9">
+        <name>
+          <text>_isProductDeliveryNotified</text>
+        </name>
+      </place>
+      <place id="id10">
+        <name>
+          <text>state</text>
+        </name>
+      </place>
+      <place id="id12">
+        <name>
+          <text>par-constructor</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="id15">
+        <name>
+          <text>par-buyProduct</text>
+        </name>
+      </place>
+      <place id="id18">
+        <name>
+          <text>par-payProduct</text>
+        </name>
+      </place>
+      <place id="id21">
+        <name>
+          <text>par-notifyProductPayment</text>
+        </name>
+      </place>
+      <place id="id24">
+        <name>
+          <text>par-sendProduct</text>
+        </name>
+      </place>
+      <place id="id27">
+        <name>
+          <text>par-payShippingCosts</text>
+        </name>
+      </place>
+      <place id="id30">
+        <name>
+          <text>par-deliverProduct</text>
+        </name>
+      </place>
+      <place id="id33">
+        <name>
+          <text>par-notifyProductReceipt</text>
+        </name>
+      </place>
+      <place id="id36">
+        <name>
+          <text>par-notifyProductDelivery</text>
+        </name>
+      </place>
+      <place id="id39">
+        <name>
+          <text>par-payProductSeller</text>
+        </name>
+      </place>
+      <place id="id42">
+        <name>
+          <text>par-liberateShippingCosts</text>
+        </name>
+      </place>
+      <place id="id45">
+        <name>
+          <text>par-payShippingCosts</text>
+        </name>
+      </place>
+      <transition id="id11">
+        <name>
+          <text>constructor</text>
+        </name>
+      </transition>
+      <transition id="id14">
+        <name>
+          <text>buyProduct</text>
+        </name>
+      </transition>
+      <transition id="id17">
+        <name>
+          <text>payProduct</text>
+        </name>
+      </transition>
+      <transition id="id20">
+        <name>
+          <text>notifyProductPayment</text>
+        </name>
+      </transition>
+      <transition id="id23">
+        <name>
+          <text>sendProduct</text>
+        </name>
+      </transition>
+      <transition id="id26">
+        <name>
+          <text>payShippingCosts</text>
+        </name>
+      </transition>
+      <transition id="id29">
+        <name>
+          <text>deliverProduct</text>
+        </name>
+      </transition>
+      <transition id="id32">
+        <name>
+          <text>notifyProductReceipt</text>
+        </name>
+      </transition>
+      <transition id="id35">
+        <name>
+          <text>notifyProductDelivery</text>
+        </name>
+      </transition>
+      <transition id="id38">
+        <name>
+          <text>payProductSeller</text>
+        </name>
+      </transition>
+      <transition id="id41">
+        <name>
+          <text>liberateShippingCosts</text>
+        </name>
+      </transition>
+      <transition id="id44">
+        <name>
+          <text>payShippingCosts</text>
+        </name>
+      </transition>
+      <arc id="id13" source="id12" target="id11">
+        <inscription>
+          <text>1</text>
+        </inscription>
+      </arc>
+      <arc id="id16" source="id15" target="id14">
+        <inscription>
+          <text>1</text>
+        </inscription>
+      </arc>
+      <arc id="id19" source="id18" target="id17">
+        <inscription>
+          <text>1</text>
+        </inscription>
+      </arc>
+      <arc id="id22" source="id21" target="id20">
+        <inscription>
+          <text>1</text>
+        </inscription>
+      </arc>
+      <arc id="id25" source="id24" target="id23">
+        <inscription>
+          <text>1</text>
+        </inscription>
+      </arc>
+      <arc id="id28" source="id27" target="id26">
+        <inscription>
+          <text>1</text>
+        </inscription>
+      </arc>
+      <arc id="id31" source="id30" target="id29">
+        <inscription>
+          <text>1</text>
+        </inscription>
+      </arc>
+      <arc id="id34" source="id33" target="id32">
+        <inscription>
+          <text>1</text>
+        </inscription>
+      </arc>
+      <arc id="id37" source="id36" target="id35">
+        <inscription>
+          <text>1</text>
+        </inscription>
+      </arc>
+      <arc id="id40" source="id39" target="id38">
+        <inscription>
+          <text>1</text>
+        </inscription>
+      </arc>
+      <arc id="id43" source="id42" target="id41">
+        <inscription>
+          <text>1</text>
+        </inscription>
+      </arc>
+      <arc id="id46" source="id45" target="id44">
+        <inscription>
+          <text>1</text>
+        </inscription>
+      </arc>
+    </page>
+  </net>
+</PnmlDocument>

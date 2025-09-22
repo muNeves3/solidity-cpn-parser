@@ -1,0 +1,17 @@
+/home/murilo/www/SolidityRDP/obj/Debug/net8.0/SolidityRDP.csproj.AssemblyReference.cache
+/home/murilo/www/SolidityRDP/obj/Debug/net8.0/SolidityRDP.GeneratedMSBuildEditorConfig.editorconfig
+/home/murilo/www/SolidityRDP/obj/Debug/net8.0/SolidityRDP.AssemblyInfoInputs.cache
+/home/murilo/www/SolidityRDP/obj/Debug/net8.0/SolidityRDP.AssemblyInfo.cs
+/home/murilo/www/SolidityRDP/obj/Debug/net8.0/SolidityRDP.csproj.CoreCompileInputs.cache
+/home/murilo/www/SolidityRDP/bin/Debug/net8.0/SolidityRDP
+/home/murilo/www/SolidityRDP/bin/Debug/net8.0/SolidityRDP.deps.json
+/home/murilo/www/SolidityRDP/bin/Debug/net8.0/SolidityRDP.runtimeconfig.json
+/home/murilo/www/SolidityRDP/bin/Debug/net8.0/SolidityRDP.dll
+/home/murilo/www/SolidityRDP/bin/Debug/net8.0/SolidityRDP.pdb
+/home/murilo/www/SolidityRDP/bin/Debug/net8.0/Antlr4.Runtime.Standard.dll
+/home/murilo/www/SolidityRDP/obj/Debug/net8.0/Solidity.BAB358C9.Up2Date
+/home/murilo/www/SolidityRDP/obj/Debug/net8.0/SolidityRDP.dll
+/home/murilo/www/SolidityRDP/obj/Debug/net8.0/refint/SolidityRDP.dll
+/home/murilo/www/SolidityRDP/obj/Debug/net8.0/SolidityRDP.pdb
+/home/murilo/www/SolidityRDP/obj/Debug/net8.0/SolidityRDP.genruntimeconfig.cache
+/home/murilo/www/SolidityRDP/obj/Debug/net8.0/ref/SolidityRDP.dll

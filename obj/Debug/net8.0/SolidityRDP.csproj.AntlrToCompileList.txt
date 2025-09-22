@@ -1,0 +1,4 @@
+/home/murilo/www/SolidityRDP/obj/Debug/net8.0/SolidityBaseVisitor.cs
+/home/murilo/www/SolidityRDP/obj/Debug/net8.0/SolidityLexer.cs
+/home/murilo/www/SolidityRDP/obj/Debug/net8.0/SolidityParser.cs
+/home/murilo/www/SolidityRDP/obj/Debug/net8.0/SolidityVisitor.cs
